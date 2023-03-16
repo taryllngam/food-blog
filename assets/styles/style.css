@@ -6,7 +6,7 @@
 .topnav {
   width: 350vh;
   display: flex;
-  gap: 500px;
+  gap: 600px;
   height: 50px;
   padding-bottom: 50px;
   font-family: 'Times New Roman', Times, serif;
@@ -36,6 +36,7 @@
 #menubtn img {
   width: 25px;
   height: auto;
+  padding-top: 15px;
  
   
 }
@@ -67,11 +68,48 @@ h2 {
 .container {
   width: 300px;
   height: 80px;
-  background-color: aquamarine;
   text-align: center;
   margin: 0 auto;
+ 
+  
+}
+
+.container .tool {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  
+}
+
+.container .tool li a {
+  text-decoration: none;
 }
 
 .tool {
-  padding-top: 30px;
+
+  width: auto;
+}
+
+.seperation {
+  border-bottom: 1px solid silver;
+  padding-top: 20px;
+  margin: auto 70px;
+}
+
+.foodman {
+  display: grid;
+  justify-content: center;
+  padding-top: 70px;
+}
+.foodman img {
+  padding: 40px 0 30px 0 ;
+}
+
+.bio {
+  text-align: center;
+  display: block;
+  line-height: 24px;
+  margin: 0 100px 0 100px;
 }
