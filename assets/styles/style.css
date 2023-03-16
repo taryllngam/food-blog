@@ -63,6 +63,7 @@
 h2 {
   text-align: center;
   margin-bottom: 5px;
+  font-size: 30px;
 }
 
 .container {
@@ -103,6 +104,7 @@ h2 {
   justify-content: center;
   padding-top: 70px;
 }
+
 .foodman img {
   padding: 40px 0 30px 0 ;
 }
@@ -113,4 +115,50 @@ h2 {
   line-height: 24px;
   margin: 0 100px 80px 100px;
 }
+ 
+.footer {
+  display: grid;
+  grid-template-columns: 30% auto auto ;
+  margin: 100px;
+  gap: 80px;
+}
 
+h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.blog .lorem {
+  display: flex;
+  gap: 5px;
+  padding-bottom:12px ;
+  border-bottom: 1px solid silver;
+}
+
+.blog .praes {
+  display: flex;
+  gap: 5px;
+  padding: 20px 0 0 0;
+}
+
+.lorem {
+  width: 20vw;
+}
+
+.lorem p {
+  text-align: center;
+  padding-top: 10px;
+} 
+
+.praes p {
+  padding-top: 10px;
+}
+
+#pics {
+  width: 50px;
+}
+
+.tags .tag {
+ display: inline-block;
+ gap: 50px;
+}
