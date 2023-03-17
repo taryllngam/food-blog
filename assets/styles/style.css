@@ -40,7 +40,7 @@
 #menubtn img {
   width: 25px;
   height: auto;
-  padding-top: 15px; 
+  padding-top: 15px;
 }
 
 .foods {
@@ -72,7 +72,7 @@ h2 {
   width: 300px;
   height: 80px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .tool {
@@ -118,7 +118,7 @@ h2 {
   line-height: 24px;
   margin: 0 100px 80px;
 }
- 
+
 .footer {
   display: grid;
   grid-template-columns: 30% auto auto;
