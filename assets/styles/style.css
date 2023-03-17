@@ -9,7 +9,7 @@
   gap: 600px;
   height: 50px;
   padding-bottom: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   position: fixed;
   background-color: white;
   top: 0;
@@ -33,12 +33,15 @@
   cursor: pointer;
 }
 
+.foodman img {
+  padding: 40px 0 30px;
+}
+
+
 #menubtn img {
   width: 25px;
   height: auto;
-  padding-top: 15px;
- 
-  
+  padding-top: 15px; 
 }
 
 .foods {
@@ -51,10 +54,10 @@
   display: grid;
   grid-template-columns: 25% auto auto auto;
   padding-top: 20px;
-  margin:40px;
+  margin: 40px;
 }
 
-#size {
+.size {
   width: 20vw;
   height: 50vh;
   margin: 10px;
@@ -63,17 +66,18 @@
 h2 {
   text-align: center;
   margin-bottom: 5px;
-  
 }
 
 .container {
   width: 300px;
   height: 80px;
   text-align: center;
-  margin: 0 auto;
- 
- 
-  
+  margin: 0 auto; 
+}
+
+.tool {
+  color: black;
+  width: auto;
 }
 
 .container .tool {
@@ -96,12 +100,6 @@ h2 {
   color: white;
 }
 
-
-.tool {
-  color: black;
-  width: auto;
-}
-
 .seperation {
   border-bottom: 1px solid silver;
   padding-top: 20px;
@@ -114,15 +112,11 @@ h2 {
   padding-top: 70px;
 }
 
-.foodman img {
-  padding: 40px 0 30px 0 ;
-}
-
 .bio {
   text-align: center;
   display: block;
   line-height: 24px;
-  margin: 0 100px 80px 100px;
+  margin: 0 100px 80px;
 }
  
 .footer {
@@ -137,31 +131,30 @@ h3 {
   font-size: 25px;
 }
 
+.lorem {
+  width: 20vw;
+}
+
 .blog .lorem {
   display: flex;
   gap: 5px;
-  padding:12px 0 12px 12px;
-  border-bottom: 1px solid silver;
-  
+  padding: 12px 0 12px 12px;
+  border-bottom: 1px solid silver; 
 }
 
 .blog .praes {
   display: flex;
   gap: 5px;
-  padding: 20px 0 0 0;
-}
-
-.lorem {
-  width: 20vw;
+  padding: 20px 0 0;
 }
 
 .lorem p {
   text-align: center;
   padding-top: 10px;
 } 
+
 .lorem:hover {
   background-color: silver;
-
 }
 
 .praes p {
@@ -173,16 +166,16 @@ h3 {
   padding: 12px 0 12px 12px;
 }
 
-#pics {
+.pics {
   width: 50px;
 }
 
 .tag {
- display: flex;
- flex-wrap: wrap;
- gap: 6px;
- font-size: 12px;
- color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 12px;
+  color: white;
 }
 
 .span-black {
