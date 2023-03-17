@@ -63,7 +63,7 @@
 h2 {
   text-align: center;
   margin-bottom: 5px;
-  font-size: 30px;
+  
 }
 
 .container {
@@ -71,6 +71,7 @@ h2 {
   height: 80px;
   text-align: center;
   margin: 0 auto;
+ 
  
   
 }
@@ -81,22 +82,30 @@ h2 {
   justify-content: center;
   gap: 30px;
   list-style: none;
-  
 }
 
 .container .tool li a {
   text-decoration: none;
+  color: black;
 }
 
-.tool {
+.container .tool li a:hover {
+  background-color: black;
+  margin-top: 4px;
+  padding: 5px 8px;
+  color: white;
+}
 
+
+.tool {
+  color: black;
   width: auto;
 }
 
 .seperation {
   border-bottom: 1px solid silver;
   padding-top: 20px;
-  margin: auto 70px;
+  margin: auto 30px;
 }
 
 .foodman {
@@ -120,7 +129,7 @@ h2 {
   display: grid;
   grid-template-columns: 30% auto auto ;
   margin: 100px;
-  gap: 80px;
+  gap: 50px;
 }
 
 h3 {
@@ -131,8 +140,9 @@ h3 {
 .blog .lorem {
   display: flex;
   gap: 5px;
-  padding-bottom:12px ;
+  padding:12px 0 12px 12px;
   border-bottom: 1px solid silver;
+  
 }
 
 .blog .praes {
@@ -149,16 +159,40 @@ h3 {
   text-align: center;
   padding-top: 10px;
 } 
+.lorem:hover {
+  background-color: silver;
+
+}
 
 .praes p {
-  padding-top: 10px;
+  padding: 10px;
+}
+
+.praes:hover {
+  background-color: silver;
+  padding: 12px 0 12px 12px;
 }
 
 #pics {
   width: 50px;
 }
 
-.tags .tag {
- display: inline-block;
- gap: 50px;
+.tag {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 6px;
+ font-size: 12px;
+ color: white;
+}
+
+.span-black {
+  background-color: black;
+  margin-top: 4px;
+  padding: 5px 8px;
+}
+
+.span-gray {
+  background-color: gray;
+  margin-top: 4px;
+  padding: 5px 8px;
 }
