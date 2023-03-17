@@ -37,7 +37,6 @@
   padding: 40px 0 30px;
 }
 
-
 #menubtn img {
   width: 25px;
   height: auto;
@@ -48,9 +47,10 @@
   display: grid;
   grid-template-columns: 25% auto auto auto;
   padding-top: 200px;
-  margin:40px;
+  margin: 40px;
+}
 
-}.foodstacks {
+.foodstacks {
   display: grid;
   grid-template-columns: 25% auto auto auto;
   padding-top: 20px;
@@ -121,7 +121,7 @@ h2 {
  
 .footer {
   display: grid;
-  grid-template-columns: 30% auto auto ;
+  grid-template-columns: 30% auto auto;
   margin: 100px;
   gap: 50px;
 }
@@ -139,7 +139,7 @@ h3 {
   display: flex;
   gap: 5px;
   padding: 12px 0 12px 12px;
-  border-bottom: 1px solid silver; 
+  border-bottom: 1px solid silver;
 }
 
 .blog .praes {
@@ -151,7 +151,7 @@ h3 {
 .lorem p {
   text-align: center;
   padding-top: 10px;
-} 
+}
 
 .lorem:hover {
   background-color: silver;
