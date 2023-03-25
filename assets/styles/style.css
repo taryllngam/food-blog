@@ -217,7 +217,7 @@ h3 {
     font-size: 13px;
   }
 
-  .topnav .head  #myfood {
+  .topnav .head #myfood {
     display: flex;
     flex: none;
   }
