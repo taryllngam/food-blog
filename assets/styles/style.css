@@ -23,8 +23,8 @@
 }
 
 #myfood {
- display: flex;
- flex: none;
+  display: flex;
+  flex: none;
 }
 
 #menubtn {
@@ -34,6 +34,7 @@
   border-radius: 3px;
   z-index: 3;
   cursor: pointer;
+
   /* margin: 15px; */
 }
 
@@ -202,12 +203,10 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-
   .topnav .head {
     gap: 20%;
   }
  
-
   .foods {
     display: flex;
     flex-direction: column;
