@@ -4,8 +4,9 @@
 }
 
 body {
-  font-family: sans serif;
+  font-family: 'Karma', serif;
   margin: 0 auto;
+  font-size: 17px;
 }
 
 .topnav {
@@ -20,7 +21,8 @@ body {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  font-family: sans serif;
+  font-family: 'Karma', serif;
+  font-weight: 2px;
   padding: 2%;
   font-size: 1rem;
 }
@@ -139,6 +141,10 @@ h2 {
   gap: 80px;
 }
 
+.footer .foot {
+  font-size: 20px;
+}
+
 h3 {
   padding-bottom: 20px;
   font-size: 25px;
@@ -185,14 +191,14 @@ h3 {
 }
 
 .pics {
-  width: 10%;
+  width: 30%;
 }
 
 .tag {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  font-size: 12px;
+  font-size: 15px;
   color: white;
   margin-right: 20px;
 }
