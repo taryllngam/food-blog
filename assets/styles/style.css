@@ -228,7 +228,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    font-family: "sans serif";
+    font-family: sans, serif;
     padding: 2%;
     gap: 25%;
     font-size: 0.6rem;
